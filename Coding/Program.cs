@@ -8,6 +8,8 @@ namespace Coding
         {
             Console.WriteLine("Hi");
 
+            // Code goes here.
+
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
