@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Coding.Base;
+using Coding.Code;
+using System;
 
 namespace Coding
 {
@@ -8,7 +10,8 @@ namespace Coding
         {
             Console.WriteLine("Hi");
 
-            // Code goes here.
+            BaseRun p = new AddTwoNumbers();
+            p.Run();
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
